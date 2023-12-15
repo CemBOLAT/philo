@@ -1,6 +1,7 @@
 # Ecole42 Philosophers Project
 
 - [Introduction](#introduction)
+- [Global Rules](#global-rules)
 - [Mandatory Part - Program: philo](#mandatory-part---program-philo)
   - [Project Structure](#project-structure)
   - [Build Instructions](#build-instructions)
@@ -13,12 +14,15 @@
   - [Execution](#execution-1)
   - [Requirements](#requirements-1)
   - [Description](#description-1)
-  - [Global Rules](#global-rules)
 
 
 ## Introduction
 
 This repository contains the implementation of the Philosophers project for Ecole42. The project involves creating a simulation of philosophers dining, with both mandatory and bonus parts.
+
+## Global Rules
+
+Ensure that your program adheres to the global rules provided in the project description to avoid issues and data races. The logs should accurately represent the state changes of philosophers, and the program should handle philosopher deaths appropriately.
 
 # Mandatory Part - Program: `philo`
 
@@ -96,10 +100,6 @@ Libft is not authorized.
 ## Description
 
 The `philo_bonus` program extends the project with processes and semaphores, following the rules specified in the project description.
-
-## Global Rules
-
-Ensure that your program adheres to the global rules provided in the project description to avoid issues and data races. The logs should accurately represent the state changes of philosophers, and the program should handle philosopher deaths appropriately.
 
 Note: This README provides a general structure and guidelines. Make sure to refer to the actual project requirements and guidelines for the most accurate and specific information.
 
